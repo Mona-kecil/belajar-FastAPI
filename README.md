@@ -19,31 +19,29 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 2: Understanding ASGI**
-- [ ] **What is ASGI?**
-  - [ ] Definition: ASGI (Asynchronous Server Gateway Interface) is a modern standard for Python web applications and servers to handle asynchronous capabilities.
-  - [ ] Comparison with WSGI:
-    - [ ] **WSGI**: Handles synchronous requests; doesn't support WebSockets or async calls.
-    - [ ] **ASGI**: Supports asynchronous tasks, WebSockets, HTTP2, and long-lived connections.
-  - [ ] Why FastAPI uses ASGI:
-    - [ ] Built-in async/await capabilities.
-    - [ ] Improved performance for modern APIs.
-
-- [ ] **Deep Dive into ASGI**:
-  - [ ] **ASGI Lifecycle**:
-    - [ ] The interaction between an ASGI server (e.g., Uvicorn) and an ASGI app (e.g., FastAPI).
-    - [ ] **Three main ASGI events**:
+- [x] **What is ASGI?**
+  - [x] Definition: ASGI (Asynchronous Server Gateway Interface) is a modern standard for Python web applications and servers to handle asynchronous capabilities.
+  - [x] Comparison with WSGI:
+    - [x] **WSGI**: Handles synchronous requests; doesn't support WebSockets or async calls.
+    - [x] **ASGI**: Supports asynchronous tasks, WebSockets, HTTP2, and long-lived connections.
+  - [x] Why FastAPI uses ASGI:
+    - [x] Built-in async/await capabilities.
+    - [x] Improved performance for modern APIs.
+- [x] **Deep Dive into ASGI**:
+  - [x] **ASGI Lifecycle**:
+    - [x] The interaction between an ASGI server (e.g., Uvicorn) and an ASGI app (e.g., FastAPI).
+    - [x] **Three main ASGI events**:
       1. **Lifespan Events**: App startup/shutdown lifecycle.
       2. **HTTP Scope**: Handles HTTP requests and responses.
       3. **WebSocket Scope**: Real-time two-way communication.
-  - [ ] **ASGI Middleware**:
-    - [ ] How middleware interacts with requests/responses.
-    - [ ] Writing custom middleware for logging, authentication, or request manipulation.
-
-- [ ] **Async vs Traditional Programming**:
-  - [ ] **Event Loops**: How FastAPI leverages `asyncio` for concurrency.
-  - [ ] **Blocking vs Non-blocking code**:
-    - [ ] Examples of synchronous (blocking) vs asynchronous (non-blocking) tasks.
-  - [ ] Best practices for using `async def` in FastAPI.
+  - [x] **ASGI Middleware**:
+    - [x] How middleware interacts with requests/responses.
+    - [x] Writing custom middleware for logging, authentication, or request manipulation.
+- [x] **Async vs Traditional Programming**:
+  - [x] **Event Loops**: How FastAPI leverages `asyncio` for concurrency.
+  - [x] **Blocking vs Non-blocking code**:
+    - [x] Examples of synchronous (blocking) vs asynchronous (non-blocking) tasks.
+  - [x] Best practices for using `async def` in FastAPI.
 
 ---
 
