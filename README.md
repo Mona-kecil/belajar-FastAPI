@@ -5,16 +5,16 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 1: Introduction to FastAPI**
-- [ ] **Basics of FastAPI**:
-  - [ ] Installation and Setup
-  - [ ] HelloWorld Application
-- [ ] **Understanding Main Features and Benefits**
-- [ ] **Comparison with Other Frameworks**:
-  - [ ] FastAPI vs Flask/Django (WSGI frameworks)
-  - [ ] Key advantages of ASGI over WSGI:
-    - [ ] **Concurrency and Asynchronous Programming**
-    - [ ] **Real-time Communication Support** (e.g., WebSockets)
-    - [ ] Scalability improvements for high I/O workloads
+- [x] **Basics of FastAPI**:
+  - [x] Installation and Setup
+  - [x] HelloWorld Application
+- [x] **Understanding Main Features and Benefits**
+- [x] **Comparison with Other Frameworks**:
+  - [x] FastAPI vs Flask/Django (WSGI frameworks)
+  - [x] Key advantages of ASGI over WSGI:
+    - [x] **Concurrency and Asynchronous Programming**
+    - [x] **Real-time Communication Support** (e.g., WebSockets)
+    - [x] Scalability improvements for high I/O workloads
 
 ---
 
