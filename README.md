@@ -46,14 +46,14 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 3: Core FastAPI Features**
-- [ ] **HTTP Verbs and Routing**:
-  - [ ] Defining Routes
-  - [ ] Route Parameters
-  - [ ] Query Parameters
-- [ ] **Request and Response Models**:
-  - [ ] Pydantic Models
-  - [ ] Request Validation
-  - [ ] Response Models (encoding, handling)
+- [x] **HTTP Verbs and Routing**:
+  - [x] Defining Routes
+  - [x] Route Parameters
+  - [x] Query Parameters
+- [x] **Request and Response Models**:
+  - [x] Pydantic Models
+  - [x] Request Validation
+  - [x] Response Models (encoding, handling)
 
 ---
 
