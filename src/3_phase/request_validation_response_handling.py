@@ -38,6 +38,9 @@ async def custom_html_response():
     return "<h1>Custom HTML response created!</h1>"
 
 
-@app.get('/file', response_class=FileResponse)
+@app.get('/file')
 async def custom_file_response():
-    return '/home/matcha/langBasic/roadmap.md'
+    file_path = '/home/matcha/langBasic/roadmap.md'
+    response = FileResponse(file_path)
+    response.headers['Content-Disposition'] = 'attachment; filename="roadmap.md"'
+    return response
