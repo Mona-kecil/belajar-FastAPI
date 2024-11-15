@@ -58,11 +58,11 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 4: Authentication and Authorization**
-- [ ] Introduction to OAuth2
-- [ ] Implementing Basic Authentication
-- [ ] Security Schemes in FastAPI
-- [ ] Using `Security` and `Depends`
-- [ ] JWT Tokens for Authentication
+- [x] Introduction to OAuth2
+- [x] Implementing Basic Authentication
+- [x] Security Schemes in FastAPI
+- [x] Using `Security` and `Depends`
+- [x] JWT Tokens for Authentication
 
 ---
 
