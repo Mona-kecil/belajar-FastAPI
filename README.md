@@ -79,9 +79,9 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 6: Dependency Injection**
-- [ ] FastAPI's Dependency Injection System
-- [ ] Using `Depends` and Sub-dependencies
-- [ ] Advanced Use of Dependencies
+- [x] FastAPI's Dependency Injection System
+- [x] Using `Depends` and Sub-dependencies
+- [x] Advanced Use of Dependencies
 
 ---
 
@@ -95,12 +95,12 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 8: Advanced Routing and Features**
-- [ ] **Advanced Routing Techniques**:
-  - [ ] URL Redirection
-  - [ ] Direct Response Generation
-  - [ ] Using WebSocket Routes
-- [ ] File Uploads and Background Tasks
-- [ ] Streaming Responses
+- [x] **Advanced Routing Techniques**:
+  - [x] URL Redirection
+  - [x] Direct Response Generation
+  - [x] Using WebSocket Routes
+- [x] File Uploads and Background Tasks
+- [x] Streaming Responses
 
 ---
 
