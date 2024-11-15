@@ -67,14 +67,14 @@ This roadmap serves as a structured guide to mastering FastAPI, covering its cor
 ---
 
 ## **Phase 5: Middleware and Error Handling**
-- [ ] **Middleware**:
-  - [ ] Understanding Middleware
-  - [ ] Creating Middleware
-  - [ ] Pre and Post Request Hooks
-- [ ] **Error Handling**:
-  - [ ] HTTP Exceptions
-  - [ ] Custom Exception Handlers
-- [ ] Middleware Interaction with Requests/Responses
+- [x] **Middleware**:
+  - [x] Understanding Middleware
+  - [x] Creating Middleware
+  - [x] Pre and Post Request Hooks
+- [x] **Error Handling**:
+  - [x] HTTP Exceptions
+  - [x] Custom Exception Handlers
+- [x] Middleware Interaction with Requests/Responses
 
 ---
 
